@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de divisas</title>
+    <script src="script/script.js"></script>
+
+</head>
+
+
+<body>
+  <header>
+    <center>
+     <h1>Conversor De Divisas</h1>
+       Cantidad: <input type="text" id="cantidad"
+         onchange="convertir()">
+    <span id="valor">0</span><br>
+   
+   Convertir De
+    <select id="de" onchange="convertir()"> 
+         <option value="1">Peso Colombiano</option>
+         <option value="2">Dólar</option>
+         <option value="3">Peso Méxicano</option>
+         <option value="4">Euro</option>
+         <option value="5">Libra Esterlina</option>
+    </select><br><br>
+    Convertir A
+    <select id="a" onchange="convertir()">
+         <option value="1">Peso Colombiano</option>
+         <option value="2">Dólar</option>
+         <option value="3">Peso Méxicano</option>
+         <option value="4">Euro</option>
+         <option value="5">Libra Esterlina</option>
+     </select><br><br>
+
+    <h1 id="Resultado"> </h1>
+
+    
+       validaciones del formulario: <input type="text" id="cantidad"
+       onchange="convertir()">
+
+     </center>
+  </header>
+</body>
+
+</html>
